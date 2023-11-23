@@ -1,0 +1,99 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(177deg, rgba(204,204,204,1) 0%, rgba(255,255,255,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.limite{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 6%;
+    
+}
+
+.form{
+    background-color: rgb(247 247 247);
+    box-shadow: 5px 5px 10px #353535;
+    border-radius: 20px;
+    max-width: 100%;
+    height: 100%;
+    padding: 40px;
+
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 22pt;
+    
+}
+.subtitulo{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.campo-form{
+    position: relative;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.input{
+    outline: none;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+
+
+.botao-enviar{
+    text-align: center;
+    width: 54%;
+    margin: 0 auto;
+}
+
+.form input[type=submit]{
+    background-color: #ccc;
+    border-radius: 30px;
+    padding: 10px 40px;
+    border: 0;
+    font-size: 14pt;
+    cursor: pointer;
+
+}
+
+.form input[type=submit]:hover{
+    background-color: #333;
+    color:#fff;
+}
+
+.erro{
+    color: #ff0000
+}
+@media screen and (max-width: 768px) {
+    .limite {
+        padding-top: 6%;
+    }
+
+    .form {
+        width: 100%;
+    }
+    .botao-enviar{
+        text-align: center;
+        width: 100%;
+    }
+}
