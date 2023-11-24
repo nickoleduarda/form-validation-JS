@@ -59,6 +59,5 @@ function isNumeroValid(numero){
     if (numeroRegex.test(numero)){
         return true;
     }
-
     return false
 }
